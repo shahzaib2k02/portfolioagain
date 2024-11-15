@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidra - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1 class="logo">Sidratun Muntaha</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#inspiration">Inspiration</a></li>
+                <li><a href="#memory">Good Memory</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+    <header id="hero">
+        <div class="hero-content">
+            <h2>Hello, I'm <span>Sidratun Muntaha</span></h2>
+            <p>Passionate software developer committed to building innovative web applications that make a difference.</p>
+            <a href="#contact" class="btn">Let's Connect</a>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="shahzaib.png" alt="Your Photo">
+                </div>
+                <div class="about-text">
+                    <p>
+                        I am a software developer with a strong foundation in web development and a love for solving complex problems. From an early age, I have been fascinated by how technology can bring ideas to life. My journey started with learning to code in high school and has since evolved into a professional career where I develop creative solutions for everyday challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>BSc in Computer Science</h3>
+                        <p>University of Somewhere, 2025</p>
+                        <p><strong>Key Achievements:</strong> 
+                            <ul>
+                                <li>Completed a project on Machine Learning algorithms.</li>
+                                <li>Participated in several hackathons, winning 1st place in one.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="interests">
+        <div class="container">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-image">
+                        <img src="maldives.jpg" alt="Traveling">
+                    </div>
+                    <div class="interest-content">
+                        <h3>Traveling</h3>
+                        <p>Exploring new places helps me to gain fresh perspectives that I apply to my projects.</p>
+                    </div>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-image">
+                        <img src="reading.jpg" alt="Reading">
+                    </div>
+                    <div class="interest-content">
+                        <h3>Reading</h3>
+                        <p>Books, particularly on tech and entrepreneurship, fuel my ideas and creativity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-card">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li><i class="fas fa-code"></i> HTML & CSS</li>
+                        <li><i class="fas fa-code"></i> JavaScript & TypeScript</li>
+                        <li><i class="fas fa-code"></i> React & Node.js</li>
+                    </ul>
+                </div>
+                <div class="skills-card">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li><i class="fas fa-users"></i> Effective Communication</li>
+                        <li><i class="fas fa-users"></i> Teamwork</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="vision">
+        <div class="container">
+            <h2 class="section-title">Vision for the Future</h2>
+            <p>
+                In the next 10 years, I aim to be a tech leader, shaping the future of AI and web development. I believe in continuous learning, and I want to mentor the next generation of developers.
+            </p>
+        </div>
+    </section>
+    <section id="inspiration">
+        <div class="container">
+            <h2 class="section-title">Inspiration</h2>
+            <p>
+                Influenced by leaders like Steve Jobs and Elon Musk, I strive to bring innovation and creativity into everything I do. Their ability to challenge norms and create lasting change is something I aspire to emulate in my own work.
+            </p>
+        </div>
+    </section>
+    <section id="memory">
+        <div class="container">
+            <h2 class="section-title">A Good Memory</h2>
+            <div class="memory-content">
+                <img src="memory.jpg" alt="A Good Memory">
+                <p>
+                    A memorable moment for me was when I collaborated with a team of passionate developers to launch a non-profit website aimed at helping local communities. Seeing it make an impact was incredibly rewarding and reaffirmed my passion for tech.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form action="submit_form.php" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required class="form-input">
+                <input type="email" name="email" placeholder="Your Email" required class="form-input">
+                <textarea name="message" placeholder="Your Message" required class="form-textarea"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Your Name</h3>
+                <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+                <p>GitHub: <a href="#">github.com/yourusername</a></p>
+                <div class="social-icons">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelector('.nav-links');
+    burger.addEventListener('click', () => {
+    navLinks.classList.toggle('nav-active');
+    burger.classList.toggle('toggle');
+});
+    </script>
+</body>
+</html>
